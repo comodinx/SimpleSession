@@ -1,0 +1,6 @@
+framework module SimpleSession {
+  umbrella header "SimpleSession-umbrella.h"
+
+  export *
+  module * { export * }
+}

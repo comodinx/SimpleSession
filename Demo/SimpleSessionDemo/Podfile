@@ -1,0 +1,9 @@
+platform :ios, "8.0"
+use_frameworks!
+
+target "SimpleSessionDemo" do
+
+    pod "SimpleSession", path: "../../"
+    pod "SimpleLayout"
+
+end

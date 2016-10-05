@@ -1,0 +1,19 @@
+PODS:
+  - SimpleLayout (0.1.1)
+  - SimpleSession (0.1.0)
+
+DEPENDENCIES:
+  - SimpleLayout
+  - SimpleSession (from `../../`)
+
+EXTERNAL SOURCES:
+  SimpleSession:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  SimpleLayout: a35138e1c02db15029fdac0720bf381b32b9800c
+  SimpleSession: db61ad49094c4e376d3c3a04c33e0798da17dda7
+
+PODFILE CHECKSUM: 3b4a670294b1e8680ec3147a7ae58ba4e8361a5d
+
+COCOAPODS: 1.0.1
