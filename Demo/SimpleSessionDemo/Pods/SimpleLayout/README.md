@@ -37,7 +37,7 @@ Prerequisites
 -------------
 * iOS 8+
 * Xcode 7+
-* Swift 2.0
+* Swift 3.0
 
 
 Installation

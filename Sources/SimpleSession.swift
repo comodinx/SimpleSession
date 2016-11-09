@@ -11,42 +11,42 @@ import UIKit
 public protocol SimpleSessionProtocol
 {
 
-    func dictionaryRepresentation() -> [String : AnyObject]
-    func get(key: String, defaultValue: AnyObject?) -> AnyObject?
-    func put(key: String, value: AnyObject?)
-    func has(key: String) -> Bool
-    func remove(key: String) -> AnyObject?
+    func dictionaryRepresentation() -> [String : Any]
+    func get(_ key: String, defaultValue: Any?) -> Any?
+    func put(_ key: String, value: Any?)
+    func has(_ key: String) -> Bool
+    func remove(_ key: String) -> Any?
 
 }
 
-public class SimpleSession: NSObject
+open class SimpleSession: NSObject
 {
 
-    private static let DEFAULT_SESSION_PREFIX = "simple.session."
+    fileprivate static let DEFAULT_SESSION_PREFIX = "simple.session."
 
-    public static var SESSION_PROTOCOL: SimpleSessionProtocol = UserDefaultsSession.sharedInstance
+    open static var SESSION_PROTOCOL: SimpleSessionProtocol = UserDefaultsSession.sharedInstance
 
-    public class func get(key: String, defaultValue: AnyObject? = nil) -> AnyObject?
+    open class func get(_ key: String, defaultValue: Any? = nil) -> Any?
     {
         return SESSION_PROTOCOL.get(getKey(key), defaultValue: defaultValue)
     }
 
-    public class func put(key: String, value: AnyObject?)
+    open class func put(_ key: String, value: Any?)
     {
         SESSION_PROTOCOL.put(getKey(key), value: value)
     }
 
-    public class func has(key: String) -> Bool
+    open class func has(_ key: String) -> Bool
     {
         return get(key) != nil
     }
 
-    public class func remove(key: String) -> AnyObject?
+    @discardableResult open class func remove(_ key: String) -> Any?
     {
         return SESSION_PROTOCOL.remove(getKey(key))
     }
 
-    public class func clear()
+    open class func clear()
     {
         let session = SESSION_PROTOCOL.dictionaryRepresentation()
 
@@ -57,7 +57,7 @@ public class SimpleSession: NSObject
         }
     }
 
-    private class func getKey(key: String) -> String
+    fileprivate class func getKey(_ key: String) -> String
     {
         return DEFAULT_SESSION_PREFIX + key
     }

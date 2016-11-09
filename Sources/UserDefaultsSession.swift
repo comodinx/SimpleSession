@@ -8,50 +8,50 @@
 
 import UIKit
 
-public class UserDefaultsSession: SimpleSessionProtocol
+open class UserDefaultsSession: SimpleSessionProtocol
 {
 
     static let sharedInstance = UserDefaultsSession()
 
-    public func dictionaryRepresentation() -> [String : AnyObject]
+    open func dictionaryRepresentation() -> [String : Any]
     {
-        return NSUserDefaults.standardUserDefaults().dictionaryRepresentation()
+        return UserDefaults.standard.dictionaryRepresentation() as [String : Any]
     }
 
-    public func get(key: String, defaultValue: AnyObject? = nil) -> AnyObject?
+    open func get(_ key: String, defaultValue: Any? = nil) -> Any?
     {
-        let defaults = NSUserDefaults.standardUserDefaults()
+        let defaults = UserDefaults.standard
 
-        if let value = defaults.objectForKey(key) {
-            return value
+        if let value = defaults.object(forKey: key) {
+            return value as Any?
         }
         return defaultValue
     }
 
-    public func put(key: String, value: AnyObject?)
+    open func put(_ key: String, value: Any?)
     {
         if value == nil {
             remove(key)
 
         } else {
-            let defaults = NSUserDefaults.standardUserDefaults()
+            let defaults = UserDefaults.standard
 
-            defaults.setObject(value, forKey: key)
+            defaults.set(value, forKey: key)
             defaults.synchronize()
         }
     }
 
-    public func has(key: String) -> Bool
+    open func has(_ key: String) -> Bool
     {
         return get(key) != nil
     }
 
-    public func remove(key: String) -> AnyObject?
+    @discardableResult open func remove(_ key: String) -> Any?
     {
-        let defaults = NSUserDefaults.standardUserDefaults()
+        let defaults = UserDefaults.standard
         let value = get(key)
 
-        defaults.removeObjectForKey(key)
+        defaults.removeObject(forKey: key)
         defaults.synchronize()
 
         return value

@@ -37,8 +37,8 @@ class FirstViewController: BaseViewController
         log("Key: json\nValue: \(SimpleSession.get("json") as! [String : String])")
 
         // NSData
-        SimpleSession.put("data", value: NSData(bytes: [0xFF, 0xD9] as [UInt8], length: 2))
-        log("Key: data\nValue: \(SimpleSession.get("data") as! NSData)")
+        SimpleSession.put("data", value: Data(bytes: UnsafePointer<UInt8>([0xFF, 0xD9] as [UInt8]), count: 2))
+        log("Key: data\nValue: \(SimpleSession.get("data") as! Data)")
 
         log("------------------------------")
 

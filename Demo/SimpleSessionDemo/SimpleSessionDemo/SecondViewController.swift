@@ -10,29 +10,29 @@ import UIKit
 import SimpleSession
 import SimpleLayout
 
-public class MySession: SimpleSessionProtocol
+open class MySession: SimpleSessionProtocol
 {
 
-    private var Session: [String : AnyObject] = [:]
+    fileprivate var Session: [String : Any] = [:]
 
-    public func dictionaryRepresentation() -> [String : AnyObject] {
+    open func dictionaryRepresentation() -> [String : Any] {
         return Session
     }
 
-    public func get(key: String, defaultValue: AnyObject? = nil) -> AnyObject? {
+    open func get(_ key: String, defaultValue: Any? = nil) -> Any? {
         return Session[key]
     }
 
-    public func put(key: String, value: AnyObject?) {
+    open func put(_ key: String, value: Any?) {
         Session[key] = value
     }
 
-    public func has(key: String) -> Bool {
+    open func has(_ key: String) -> Bool {
         return get(key) != nil
     }
 
-    public func remove(key: String) -> AnyObject? {
-        return Session.removeValueForKey(key)
+    @discardableResult open func remove(_ key: String) -> Any? {
+        return Session.removeValue(forKey: key)
     }
 
 }
@@ -67,8 +67,8 @@ class SecondViewController: BaseViewController
         log("Key: json\nValue: \(SimpleSession.get("json") as! [String : String])")
 
         // NSData
-        SimpleSession.put("data", value: NSData(bytes: [0xFF, 0xD9] as [UInt8], length: 2))
-        log("Key: data\nValue: \(SimpleSession.get("data") as! NSData)")
+        SimpleSession.put("data", value: Data(bytes: UnsafePointer<UInt8>([0xFF, 0xD9] as [UInt8]), count: 2))
+        log("Key: data\nValue: \(SimpleSession.get("data") as! Data)")
 
         log("------------------------------")
 

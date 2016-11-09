@@ -16,12 +16,12 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addConstraint(
-        attribute: NSLayoutAttribute,
+    @discardableResult public func sl_addConstraint(
+        _ attribute: NSLayoutAttribute,
         toItem: UIView? = nil,
         attribute toAttribute: NSLayoutAttribute,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
@@ -41,16 +41,16 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginTop(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Top,
+    @discardableResult public func sl_addMarginTop(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .top,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Top,
+            .top,
             toItem: toItem,
             attribute: attribute,
             constant: constant,
@@ -64,19 +64,19 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginTopZero(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Top,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginTopZero(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .top,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addMarginTop(
             toItem,
-            relatedBy: relatedBy,
             attribute: attribute,
-            multiplier: multiplier,
-            constant: 0.0
+            constant: 0.0,
+            relatedBy: relatedBy,
+            multiplier: multiplier
         )
     }
 
@@ -85,16 +85,16 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginBottom(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Bottom,
+    @discardableResult public func sl_addMarginBottom(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .bottom,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Bottom,
+            .bottom,
             toItem: toItem,
             attribute: attribute,
             constant: -constant,
@@ -108,10 +108,10 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginBottomZero(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Bottom,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginBottomZero(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .bottom,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
@@ -129,16 +129,16 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginLeft(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Left,
+    @discardableResult public func sl_addMarginLeft(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .left,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Left,
+            .left,
             toItem: toItem,
             attribute: attribute,
             constant: constant,
@@ -152,10 +152,10 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginLeftZero(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Left,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginLeftZero(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .left,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
@@ -173,16 +173,16 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginRight(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Right,
+    @discardableResult public func sl_addMarginRight(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .right,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Right,
+            .right,
             toItem: toItem,
             attribute: attribute,
             constant: -constant,
@@ -196,10 +196,10 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginRightZero(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Right,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginRightZero(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .right,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
@@ -217,16 +217,16 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginLeading(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Leading,
+    @discardableResult public func sl_addMarginLeading(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .leading,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Leading,
+            .leading,
             toItem: toItem,
             attribute: attribute,
             constant: constant,
@@ -240,10 +240,10 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginLeadingZero(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Leading,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginLeadingZero(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .leading,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
@@ -261,16 +261,16 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginTrailing(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Trailing,
+    @discardableResult public func sl_addMarginTrailing(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .trailing,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Trailing,
+            .trailing,
             toItem: toItem,
             attribute: attribute,
             constant: -constant,
@@ -284,10 +284,10 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addMarginTrailingZero(
-        toItem: UIView,
-        attribute: NSLayoutAttribute = .Trailing,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginTrailingZero(
+        _ toItem: UIView,
+        attribute: NSLayoutAttribute = .trailing,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
@@ -305,10 +305,10 @@ public extension UIView
 
      - returns: The constraints [top, bottom, left, right].
      */
-    public func sl_addMargin(
-        toItem: UIView,
+    @discardableResult public func sl_addMargin(
+        _ toItem: UIView,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> [NSLayoutConstraint]
     {
@@ -326,9 +326,9 @@ public extension UIView
 
      - returns: The constraints [top, bottom, left, right].
      */
-    public func sl_addMarginZero(
-        toItem: UIView,
-        relatedBy: NSLayoutRelation = .Equal,
+    @discardableResult public func sl_addMarginZero(
+        _ toItem: UIView,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> [NSLayoutConstraint]
     {
@@ -345,17 +345,17 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addCenterX(
-        toItem: UIView,
+    @discardableResult public func sl_addCenterX(
+        _ toItem: UIView,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .CenterX,
+            .centerX,
             toItem: toItem,
-            attribute: .CenterX,
+            attribute: .centerX,
             constant: constant,
             relatedBy: relatedBy,
             multiplier: multiplier
@@ -367,17 +367,17 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addCenterY(
-        toItem: UIView,
+    @discardableResult public func sl_addCenterY(
+        _ toItem: UIView,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .CenterY,
+            .centerY,
             toItem: toItem,
-            attribute: .CenterY,
+            attribute: .centerY,
             constant: constant,
             relatedBy: relatedBy,
             multiplier: multiplier
@@ -389,10 +389,10 @@ public extension UIView
 
      - returns: The constraints [x, y].
      */
-    public func sl_addCenter(
-        toItem: UIView,
+    @discardableResult public func sl_addCenter(
+        _ toItem: UIView,
         constant: CGFloat = 0.0,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> [NSLayoutConstraint]
     {
@@ -410,17 +410,17 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addWidth(
-        constant: CGFloat = 0.0,
+    @discardableResult public func sl_addWidth(
+        _ constant: CGFloat = 0.0,
         toItem: UIView? = nil,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Width,
+            .width,
             toItem: toItem,
-            attribute: .Width,
+            attribute: .width,
             constant: constant,
             relatedBy: relatedBy,
             multiplier: multiplier
@@ -432,17 +432,17 @@ public extension UIView
 
      - returns: The constraint.
      */
-    public func sl_addHeight(
-        constant: CGFloat = 0.0,
+    @discardableResult public func sl_addHeight(
+        _ constant: CGFloat = 0.0,
         toItem: UIView? = nil,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> NSLayoutConstraint
     {
         return self.sl_addConstraint(
-            .Height,
+            .height,
             toItem: toItem,
-            attribute: .Height,
+            attribute: .height,
             constant: constant,
             relatedBy: relatedBy,
             multiplier: multiplier
@@ -454,10 +454,10 @@ public extension UIView
 
      - returns: The constraints [width, height].
      */
-    public func sl_addSize(
-        constant: CGFloat = 0.0,
+    @discardableResult public func sl_addSize(
+        _ constant: CGFloat = 0.0,
         toItem: UIView? = nil,
-        relatedBy: NSLayoutRelation = .Equal,
+        relatedBy: NSLayoutRelation = .equal,
         multiplier: CGFloat = 1.0
     ) -> [NSLayoutConstraint]
     {

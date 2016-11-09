@@ -31,16 +31,16 @@ class BaseViewController: UIViewController
     {
     }
 
-    func log(message: String)
+    func log(_ message: String)
     {
         let label = UILabel()
 
         label.text = message
-        label.textColor = .blackColor()
-        label.font = UIFont.systemFontOfSize(15.0)
+        label.textColor = .black
+        label.font = UIFont.systemFont(ofSize: 15.0)
         label.numberOfLines = 0
         view.addSubview(label)
-        label.sl_addHeight(21, relatedBy: .GreaterThanOrEqual)
+        label.sl_addHeight(21, relatedBy: .greaterThanOrEqual)
         label.sl_addMarginLeft(view, constant: 10.0)
         label.sl_addMarginRight(view, constant: 10.0)
 
@@ -48,21 +48,17 @@ class BaseViewController: UIViewController
             label.sl_addMarginTop(view, constant: 64.0)
 
         } else {
-            label.sl_addMarginTop(lastLabel!, attribute: .Bottom, constant: 10.0)
+            label.sl_addMarginTop(lastLabel!, attribute: .bottom, constant: 10.0)
         }
 
         lastLabel = label
     }
 
-    func delay(delay: Double, closure: () -> Void)
+    func delay(_ delay: Double, closure: @escaping () -> Void)
     {
-        dispatch_after(
-            dispatch_time(
-                DISPATCH_TIME_NOW,
-                Int64(delay * Double(NSEC_PER_SEC))
-            ),
-            dispatch_get_main_queue(),
-            closure
+        DispatchQueue.main.asyncAfter(
+            deadline: DispatchTime.now() + Double(Int64(delay * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC),
+            execute: closure
         )
     }
     

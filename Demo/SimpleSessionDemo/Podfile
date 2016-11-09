@@ -4,6 +4,6 @@ use_frameworks!
 target "SimpleSessionDemo" do
 
     pod "SimpleSession", path: "../../"
-    pod "SimpleLayout"
+    pod "SimpleLayout", "0.2.1"
 
 end

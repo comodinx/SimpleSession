@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13A87799C654EFB498754CDE0AB5C3A8 /* Pods-SimpleSessionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF234B61B80EDF6055AE587EC0AC93B /* Pods-SimpleSessionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C958A67BBE4D0780BAE59F82E4BBB73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		36B1DC266C3EE224280CC821D588BB72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		478FB0A14632BA076F9F70F24A49D7C9 /* SimpleSession-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A4C62985DE7DCEF69FC65C4EE89197 /* SimpleSession-dummy.m */; };
-		6A6CE4D85A9C187E843D5A2047697434 /* SimpleLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51641301A095533C389697E15229CCC /* SimpleLayout-dummy.m */; };
-		6D6CEB890A0C97D56B36237F4A04171B /* UIView+SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */; };
-		6E5173E44A0448CD1A0E47955C8D8AE1 /* SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD20961FBCF513617A19BE6CEE9B135 /* SimpleLayout.swift */; };
-		7824DDC170AD9802BC9619CDCB4DD1FE /* UserDefaultsSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BD4BADF75A2EF25FAA59C9BA3819A /* UserDefaultsSession.swift */; };
-		7D74EA6E5DC9EB5CD3F82A6A2F9EAA15 /* Pods-SimpleSessionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ADCED6F649A792D54AFC770437E2F8 /* Pods-SimpleSessionDemo-dummy.m */; };
-		A880A97B03ADE95BF4B8C95D04824926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C8A3B1F65083AB0189818D701DB0B326 /* SimpleSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83EF02260C185BFDDB8EECAE5E02EB3 /* SimpleSession.swift */; };
-		DF85BEC2B26DE360A62E349EAAB7461D /* SimpleSession-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FE06329F663FC2E93499FC5C97007 /* SimpleSession-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFBD6F853BC1A557353195D51B112DCF /* SimpleLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF0D0D495D3C8936E5CD4741113916 /* SimpleLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1B7B9D4C0F6D5AEB69FBD26A233598 /* Pods-SimpleSessionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF234B61B80EDF6055AE587EC0AC93B /* Pods-SimpleSessionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E0F9222E90FC36A9CFB057C01A26CDD /* SimpleLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF0D0D495D3C8936E5CD4741113916 /* SimpleLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7D70434F79398649E492BCB1FEC53B /* SimpleSession-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A4C62985DE7DCEF69FC65C4EE89197 /* SimpleSession-dummy.m */; };
+		4E931F95AF902F566FCF0CC9E0118CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6965D9A2E277BD8432812582DAA6B7F2 /* Pods-SimpleSessionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ADCED6F649A792D54AFC770437E2F8 /* Pods-SimpleSessionDemo-dummy.m */; };
+		7BA9DCEC6A610700BFF56CADC8E639A1 /* SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD20961FBCF513617A19BE6CEE9B135 /* SimpleLayout.swift */; };
+		9B0045870686799E251AFEC49C0F1D33 /* SimpleSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83EF02260C185BFDDB8EECAE5E02EB3 /* SimpleSession.swift */; };
+		9B830D50C05FFDA1FDB684909498BB98 /* SimpleLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51641301A095533C389697E15229CCC /* SimpleLayout-dummy.m */; };
+		AF4A257A0E79D3D69033934B5D31CC45 /* UserDefaultsSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BD4BADF75A2EF25FAA59C9BA3819A /* UserDefaultsSession.swift */; };
+		B0E8EC863A396FA91C83906ECDC32401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D476FD13627FDB985F7B4A4B942E3121 /* SimpleSession-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FE06329F663FC2E93499FC5C97007 /* SimpleSession-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12E5811A96D04C300911148EF0C5811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F537668FA75D96AC09BA50B54D828434 /* UIView+SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E9837D2347CB1874327F482425F9485 /* PBXContainerItemProxy */ = {
+		2378E4594DE303C1AB775E120163B23E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B194487C572F3FCA4FF87AC336590C2C;
-			remoteInfo = SimpleSession;
-		};
-		304423B938E9408E4838EF7A1E32F61A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C38EA0D723D2CF142F19E67FFA82169;
+			remoteGlobalIDString = 8ABCE3BE4E4566F9E5951A55C3D5BCEF;
 			remoteInfo = SimpleLayout;
+		};
+		9A0CDB62F8177BE527419FC3E515D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAD838F75BE4165C411BA63324015C2;
+			remoteInfo = SimpleSession;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08B3BD14FDBDCFD1405DC9722BF1858D /* Pods-SimpleSessionDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleSessionDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FBAADF5223773E84CDD67C885CEFC94 /* Pods-SimpleSessionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleSessionDemo.modulemap"; sourceTree = "<group>"; };
+		0FBAADF5223773E84CDD67C885CEFC94 /* Pods-SimpleSessionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleSessionDemo.modulemap"; sourceTree = "<group>"; };
 		19ADCED6F649A792D54AFC770437E2F8 /* Pods-SimpleSessionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleSessionDemo-dummy.m"; sourceTree = "<group>"; };
 		1E8C2BEC1094655BC7F3D382563569C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F1FDB2BDC13876EF8FE1CD1BF4AE2C8 /* Pods_SimpleSessionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSessionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1FDB2BDC13876EF8FE1CD1BF4AE2C8 /* Pods_SimpleSessionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleSessionDemo.framework; path = "Pods-SimpleSessionDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D5A602C312E6467BDD1A7193038D81 /* Pods-SimpleSessionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleSessionDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4DB6D90DB8DC2F2CF3C8B40A437CF398 /* SimpleLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleLayout.modulemap; sourceTree = "<group>"; };
+		4DB6D90DB8DC2F2CF3C8B40A437CF398 /* SimpleLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleLayout.modulemap; sourceTree = "<group>"; };
 		4EF3A4C058D194851AED3A7C8B75FF5A /* Pods-SimpleSessionDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleSessionDemo-resources.sh"; sourceTree = "<group>"; };
 		50A4C62985DE7DCEF69FC65C4EE89197 /* SimpleSession-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleSession-dummy.m"; sourceTree = "<group>"; };
 		7A4FE06329F663FC2E93499FC5C97007 /* SimpleSession-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleSession-umbrella.h"; sourceTree = "<group>"; };
 		8E90388900AD21B898A768A9A8AFABEE /* SimpleSession.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleSession.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A467EDFF6151A734287D22E078F093B3 /* Pods-SimpleSessionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleSessionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A8A76A055DCD29A49911509BAB02AE49 /* SimpleLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleLayout-prefix.pch"; sourceTree = "<group>"; };
-		AA88958B26D5E692C6A9261F103373C1 /* SimpleSession.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleSession.modulemap; sourceTree = "<group>"; };
+		AA88958B26D5E692C6A9261F103373C1 /* SimpleSession.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleSession.modulemap; sourceTree = "<group>"; };
 		B38324DCE6CCEF168B4C13A4BAF03990 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67316C933D4DDC9790E8D1B668D64FC /* Pods-SimpleSessionDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleSessionDemo-frameworks.sh"; sourceTree = "<group>"; };
 		B9FC8A2187E7AB7BCDA126EF7800A22A /* Pods-SimpleSessionDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleSessionDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		BCD20961FBCF513617A19BE6CEE9B135 /* SimpleLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleLayout.swift; path = Sources/SimpleLayout.swift; sourceTree = "<group>"; };
 		C83EF02260C185BFDDB8EECAE5E02EB3 /* SimpleSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleSession.swift; sourceTree = "<group>"; };
 		CAC2ED5E55E837B0CA96F493F5B11AA2 /* SimpleSession-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleSession-prefix.pch"; sourceTree = "<group>"; };
-		CCF0E87C857C06A4FC95427E3FE85FA5 /* SimpleSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCF0E87C857C06A4FC95427E3FE85FA5 /* SimpleSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleSession.framework; path = SimpleSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleLayout.xcconfig; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D51641301A095533C389697E15229CCC /* SimpleLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleLayout-dummy.m"; sourceTree = "<group>"; };
-		DBD534E21FD02DA52864F00162D0973B /* SimpleLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD534E21FD02DA52864F00162D0973B /* SimpleLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleLayout.framework; path = SimpleLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF234B61B80EDF6055AE587EC0AC93B /* Pods-SimpleSessionDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleSessionDemo-umbrella.h"; sourceTree = "<group>"; };
 		E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SimpleLayout.swift"; path = "Sources/UIView+SimpleLayout.swift"; sourceTree = "<group>"; };
 		E31BD4BADF75A2EF25FAA59C9BA3819A /* UserDefaultsSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultsSession.swift; sourceTree = "<group>"; };
@@ -74,27 +74,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05F365EE44161F48F8ACB73065B5561E /* Frameworks */ = {
+		2640EED9998E9C218C47BC71D4FBE72F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C958A67BBE4D0780BAE59F82E4BBB73 /* Foundation.framework in Frameworks */,
+				B0E8EC863A396FA91C83906ECDC32401 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26299928D03ACB4575BFD2C4B3ADFB1D /* Frameworks */ = {
+		5FC873D9146876A30835FD874FD76AAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A880A97B03ADE95BF4B8C95D04824926 /* Foundation.framework in Frameworks */,
+				F12E5811A96D04C300911148EF0C5811 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C01BE017A5FF0A2D28E704D04A123BD0 /* Frameworks */ = {
+		CA1B1E8720751251BAF35A056B8247E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B1DC266C3EE224280CC821D588BB72 /* Foundation.framework in Frameworks */,
+				4E931F95AF902F566FCF0CC9E0118CD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,15 +107,8 @@
 				C83EF02260C185BFDDB8EECAE5E02EB3 /* SimpleSession.swift */,
 				E31BD4BADF75A2EF25FAA59C9BA3819A /* UserDefaultsSession.swift */,
 			);
+			name = Sources;
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4DC2FE1890BF8130E9F472628DDA88A4 /* Support Files */ = {
@@ -130,6 +123,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SimpleLayout";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		79F3131B45B54D692295D7E920012631 /* SimpleSession */ = {
@@ -191,7 +192,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,6 +204,7 @@
 				E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */,
 				4DC2FE1890BF8130E9F472628DDA88A4 /* Support Files */,
 			);
+			name = SimpleLayout;
 			path = SimpleLayout;
 			sourceTree = "<group>";
 		};
@@ -241,59 +243,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1DAF5E068678525F89843DBE79A51063 /* Headers */ = {
+		5C87D2D664B60C07E4CFDD88743408E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF85BEC2B26DE360A62E349EAAB7461D /* SimpleSession-umbrella.h in Headers */,
+				0E0F9222E90FC36A9CFB057C01A26CDD /* SimpleLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5427F1B972D6F3CD8C9DCC8F14951F53 /* Headers */ = {
+		818C25288D110A7B0A45940B895B2EFA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBD6F853BC1A557353195D51B112DCF /* SimpleLayout-umbrella.h in Headers */,
+				D476FD13627FDB985F7B4A4B942E3121 /* SimpleSession-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBDEDC78F56490ADA97EB8D635B4D3C6 /* Headers */ = {
+		A42B3F1874E0EDABE86B82701FDAC059 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A87799C654EFB498754CDE0AB5C3A8 /* Pods-SimpleSessionDemo-umbrella.h in Headers */,
+				0C1B7B9D4C0F6D5AEB69FBD26A233598 /* Pods-SimpleSessionDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		72C2E1AA824B8F6C777B05725AB2F323 /* Pods-SimpleSessionDemo */ = {
+		06FC59CBA8DAF53EB0CEB5DCD57F6095 /* Pods-SimpleSessionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 710778BD1117E1BA84D607B64B190063 /* Build configuration list for PBXNativeTarget "Pods-SimpleSessionDemo" */;
+			buildConfigurationList = D7430A8063A8F6135B6AA0DCA8BE5E57 /* Build configuration list for PBXNativeTarget "Pods-SimpleSessionDemo" */;
 			buildPhases = (
-				94D60DF1686E9AC4A62C833A1BEA00E9 /* Sources */,
-				C01BE017A5FF0A2D28E704D04A123BD0 /* Frameworks */,
-				DBDEDC78F56490ADA97EB8D635B4D3C6 /* Headers */,
+				557067CC78501CB5BEE565D94C176DAD /* Sources */,
+				2640EED9998E9C218C47BC71D4FBE72F /* Frameworks */,
+				A42B3F1874E0EDABE86B82701FDAC059 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A65E4A3C9BD82A2A7AF3A0436F9A142 /* PBXTargetDependency */,
-				9F64AB9A5A9A8E18889236E3F2C6A7A5 /* PBXTargetDependency */,
+				2EBD4396952077853F20E92E32F872BE /* PBXTargetDependency */,
+				44A7EDFAC53EE19EC0EE1FF17C366F5C /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleSessionDemo";
 			productName = "Pods-SimpleSessionDemo";
 			productReference = 2F1FDB2BDC13876EF8FE1CD1BF4AE2C8 /* Pods_SimpleSessionDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C38EA0D723D2CF142F19E67FFA82169 /* SimpleLayout */ = {
+		8ABCE3BE4E4566F9E5951A55C3D5BCEF /* SimpleLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0EEDFA2162E9392A579B27A7E29B353 /* Build configuration list for PBXNativeTarget "SimpleLayout" */;
+			buildConfigurationList = B8234B5791CFD9631CC92515828C1A6B /* Build configuration list for PBXNativeTarget "SimpleLayout" */;
 			buildPhases = (
-				526FD8D16FDB1DB125B6E9256C0749F3 /* Sources */,
-				05F365EE44161F48F8ACB73065B5561E /* Frameworks */,
-				5427F1B972D6F3CD8C9DCC8F14951F53 /* Headers */,
+				BFA1BF802DBD1998415E883CC0136F20 /* Sources */,
+				CA1B1E8720751251BAF35A056B8247E2 /* Frameworks */,
+				5C87D2D664B60C07E4CFDD88743408E2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -304,13 +306,13 @@
 			productReference = DBD534E21FD02DA52864F00162D0973B /* SimpleLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B194487C572F3FCA4FF87AC336590C2C /* SimpleSession */ = {
+		FAAD838F75BE4165C411BA63324015C2 /* SimpleSession */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E0D36B563A3BD58B2C697CECCEEF8F0 /* Build configuration list for PBXNativeTarget "SimpleSession" */;
+			buildConfigurationList = CB13B59A4C664669ECE31A75DD73E3E6 /* Build configuration list for PBXNativeTarget "SimpleSession" */;
 			buildPhases = (
-				1A36CC45AF9BF78F4879B02CEBB4F498 /* Sources */,
-				26299928D03ACB4575BFD2C4B3ADFB1D /* Frameworks */,
-				1DAF5E068678525F89843DBE79A51063 /* Headers */,
+				CAAB9AE3386C22234674FD4CEA243FCF /* Sources */,
+				5FC873D9146876A30835FD874FD76AAC /* Frameworks */,
+				818C25288D110A7B0A45940B895B2EFA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -342,123 +344,61 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72C2E1AA824B8F6C777B05725AB2F323 /* Pods-SimpleSessionDemo */,
-				9C38EA0D723D2CF142F19E67FFA82169 /* SimpleLayout */,
-				B194487C572F3FCA4FF87AC336590C2C /* SimpleSession */,
+				06FC59CBA8DAF53EB0CEB5DCD57F6095 /* Pods-SimpleSessionDemo */,
+				8ABCE3BE4E4566F9E5951A55C3D5BCEF /* SimpleLayout */,
+				FAAD838F75BE4165C411BA63324015C2 /* SimpleSession */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A36CC45AF9BF78F4879B02CEBB4F498 /* Sources */ = {
+		557067CC78501CB5BEE565D94C176DAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478FB0A14632BA076F9F70F24A49D7C9 /* SimpleSession-dummy.m in Sources */,
-				C8A3B1F65083AB0189818D701DB0B326 /* SimpleSession.swift in Sources */,
-				7824DDC170AD9802BC9619CDCB4DD1FE /* UserDefaultsSession.swift in Sources */,
+				6965D9A2E277BD8432812582DAA6B7F2 /* Pods-SimpleSessionDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		526FD8D16FDB1DB125B6E9256C0749F3 /* Sources */ = {
+		BFA1BF802DBD1998415E883CC0136F20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6CE4D85A9C187E843D5A2047697434 /* SimpleLayout-dummy.m in Sources */,
-				6E5173E44A0448CD1A0E47955C8D8AE1 /* SimpleLayout.swift in Sources */,
-				6D6CEB890A0C97D56B36237F4A04171B /* UIView+SimpleLayout.swift in Sources */,
+				9B830D50C05FFDA1FDB684909498BB98 /* SimpleLayout-dummy.m in Sources */,
+				7BA9DCEC6A610700BFF56CADC8E639A1 /* SimpleLayout.swift in Sources */,
+				F537668FA75D96AC09BA50B54D828434 /* UIView+SimpleLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D60DF1686E9AC4A62C833A1BEA00E9 /* Sources */ = {
+		CAAB9AE3386C22234674FD4CEA243FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D74EA6E5DC9EB5CD3F82A6A2F9EAA15 /* Pods-SimpleSessionDemo-dummy.m in Sources */,
+				3A7D70434F79398649E492BCB1FEC53B /* SimpleSession-dummy.m in Sources */,
+				9B0045870686799E251AFEC49C0F1D33 /* SimpleSession.swift in Sources */,
+				AF4A257A0E79D3D69033934B5D31CC45 /* UserDefaultsSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A65E4A3C9BD82A2A7AF3A0436F9A142 /* PBXTargetDependency */ = {
+		2EBD4396952077853F20E92E32F872BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleLayout;
-			target = 9C38EA0D723D2CF142F19E67FFA82169 /* SimpleLayout */;
-			targetProxy = 304423B938E9408E4838EF7A1E32F61A /* PBXContainerItemProxy */;
+			target = 8ABCE3BE4E4566F9E5951A55C3D5BCEF /* SimpleLayout */;
+			targetProxy = 2378E4594DE303C1AB775E120163B23E /* PBXContainerItemProxy */;
 		};
-		9F64AB9A5A9A8E18889236E3F2C6A7A5 /* PBXTargetDependency */ = {
+		44A7EDFAC53EE19EC0EE1FF17C366F5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleSession;
-			target = B194487C572F3FCA4FF87AC336590C2C /* SimpleSession */;
-			targetProxy = 1E9837D2347CB1874327F482425F9485 /* PBXContainerItemProxy */;
+			target = FAAD838F75BE4165C411BA63324015C2 /* SimpleSession */;
+			targetProxy = 9A0CDB62F8177BE527419FC3E515D731 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		26690ACA0F9C2EFCAE7B4EAB1424FAAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E90388900AD21B898A768A9A8AFABEE /* SimpleSession.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleSession/SimpleSession-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleSession/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleSession/SimpleSession.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SimpleSession;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2792D4C1476B4117A3CCA3030F3EA759 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A467EDFF6151A734287D22E078F093B3 /* Pods-SimpleSessionDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleSessionDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleSessionDemo/Pods-SimpleSessionDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SimpleSessionDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -476,6 +416,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -495,16 +436,157 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		838453D6426950174B98A674B18C81AD /* Debug */ = {
+		1116F2BEF3EE32A611407936A8D437DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleLayout/SimpleLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleLayout/SimpleLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A051E7D81A39D929AF79BE31AC5F2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E90388900AD21B898A768A9A8AFABEE /* SimpleSession.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleSession/SimpleSession-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleSession/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleSession/SimpleSession.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleSession;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D637EAE428D8B2549188ED7A155B465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E90388900AD21B898A768A9A8AFABEE /* SimpleSession.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleSession/SimpleSession-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleSession/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleSession/SimpleSession.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleSession;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66525B25A9EEBC26E4567A5545B257B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43D5A602C312E6467BDD1A7193038D81 /* Pods-SimpleSessionDemo.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -534,109 +616,48 @@
 			};
 			name = Debug;
 		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+		A512B6D6E3EA27CB2F75B3980CDFDB8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A467EDFF6151A734287D22E078F093B3 /* Pods-SimpleSessionDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleSessionDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleSessionDemo/Pods-SimpleSessionDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleSessionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E0E6E9533115BD9447C68DEDCF118A06 /* Debug */ = {
+		AF05BE67C1F51BD0D680B22FA8AFCD04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleLayout/SimpleLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleLayout/SimpleLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimpleLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E693B7634474ACB2F0FE456CD0707F8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E90388900AD21B898A768A9A8AFABEE /* SimpleSession.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SimpleSession/SimpleSession-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimpleSession/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimpleSession/SimpleSession.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SimpleSession;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F2E617E14394F64278673B3EE0A0BF6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -655,6 +676,7 @@
 				PRODUCT_NAME = SimpleLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -664,38 +686,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E0D36B563A3BD58B2C697CECCEEF8F0 /* Build configuration list for PBXNativeTarget "SimpleSession" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E693B7634474ACB2F0FE456CD0707F8F /* Debug */,
-				26690ACA0F9C2EFCAE7B4EAB1424FAAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		710778BD1117E1BA84D607B64B190063 /* Build configuration list for PBXNativeTarget "Pods-SimpleSessionDemo" */ = {
+		B8234B5791CFD9631CC92515828C1A6B /* Build configuration list for PBXNativeTarget "SimpleLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				838453D6426950174B98A674B18C81AD /* Debug */,
-				2792D4C1476B4117A3CCA3030F3EA759 /* Release */,
+				1116F2BEF3EE32A611407936A8D437DF /* Debug */,
+				AF05BE67C1F51BD0D680B22FA8AFCD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0EEDFA2162E9392A579B27A7E29B353 /* Build configuration list for PBXNativeTarget "SimpleLayout" */ = {
+		CB13B59A4C664669ECE31A75DD73E3E6 /* Build configuration list for PBXNativeTarget "SimpleSession" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0E6E9533115BD9447C68DEDCF118A06 /* Debug */,
-				F2E617E14394F64278673B3EE0A0BF6D /* Release */,
+				1A051E7D81A39D929AF79BE31AC5F2F1 /* Debug */,
+				5D637EAE428D8B2549188ED7A155B465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7430A8063A8F6135B6AA0DCA8BE5E57 /* Build configuration list for PBXNativeTarget "Pods-SimpleSessionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66525B25A9EEBC26E4567A5545B257B9 /* Debug */,
+				A512B6D6E3EA27CB2F75B3980CDFDB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
