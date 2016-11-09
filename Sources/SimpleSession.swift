@@ -15,7 +15,7 @@ public protocol SimpleSessionProtocol
     func get(_ key: String, defaultValue: Any?) -> Any?
     func put(_ key: String, value: Any?)
     func has(_ key: String) -> Bool
-    func remove(_ key: String) -> Any?
+    @discardableResult func remove(_ key: String) -> Any?
 
 }
 
