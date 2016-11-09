@@ -94,7 +94,7 @@ SimpleSession.SESSION_PROTOCOL = MySession()
 ##### get
 
 ```swift
-SimpleSession.get(key: String, defaultValue: AnyObject? = nil)
+SimpleSession.get(key: String, defaultValue: Any? = nil)
 ```
 
 Return value for `key` in session. If not has `key` in session return `defaultValue`.
@@ -108,7 +108,7 @@ SimpleSession.get("not.exist.key2", defaultValue: 10) // return 10, because "not
 ##### put
 
 ```swift
-SimpleSession.put(key: String, value: AnyObject?)
+SimpleSession.put(key: String, value: Any?)
 ```
 
 Put `value` for `key` in session. Expired in `seconds`.
@@ -156,27 +156,27 @@ SimpleSession.clear()
 ```swift
 import SimpleSession
 
-public class MySession: SimpleSessionProtocol
+open class MySession: SimpleSessionProtocol
 {
 
-    private var session: [String : AnyObject] = [:]
+    fileprivate var session: [String : Any] = [:]
 
-    public func get(key: String, defaultValue: AnyObject? = nil) -> AnyObject? {
+    open func get(_ key: String, defaultValue: Any? = nil) -> Any? {
         if let value = session[key] {
             return value
         }
         return defaultValue
     }
 
-    public func put(key: String, value: AnyObject?) {
+    open func put(_ key: String, value: Any?) {
         session[key] = value
     }
 
-    public func has(key: String) -> Bool {
+    open func has(_ key: String) -> Bool {
         return get(key) != nil
     }
 
-    public func remove(key: String) -> AnyObject? {
+    @discardableResult open func remove(_ key: String) -> Any? {
         return session.removeValueForKey(key)
     }
     
@@ -187,7 +187,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // ...
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
         // Configure session
