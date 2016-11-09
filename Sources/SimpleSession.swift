@@ -52,7 +52,7 @@ open class SimpleSession: NSObject
 
         for sessionKey in session.keys {
             if sessionKey.hasPrefix(DEFAULT_SESSION_PREFIX) {
-                remove(sessionKey)
+                _ = remove(sessionKey)
             }
         }
     }
