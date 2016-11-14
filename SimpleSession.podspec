@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SimpleSession"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.summary      = "Simple session written in Swift"
   s.homepage     = "https://github.com/comodinx/SimpleSession"
